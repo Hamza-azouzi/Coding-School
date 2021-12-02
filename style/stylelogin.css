@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+body{
+  background-image: url(/imgs/bglogin.png);
+  background-repeat:no-repeat ;
+}
+.containerlogin{
+    width: 700px;
+    height: 500px;
+    margin: 200px auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.containerregister{
+    width: 700px;
+    height: 650px;
+    margin: 140px auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.logo{
+    background-image: url(/imgs/logo.png);
+    background-size:85px;
+    width: 100px;
+    height: 85px;
+    background-repeat: no-repeat;
+    margin: 15px 0px;
+}
+.formlogin{
+    width: 500px;
+    height: 320px;
+    border-radius: 15px;
+    background-color: #23233B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.ipt{
+    width: 80%;
+    height: 60px;
+    background-color: #434459;
+    border: 0;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    color: #E7EBF7;
+    
+
+}
+.ipt::placeholder{
+    color: #E7EBF7;
+}
+#btn{
+    width: 157px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: inherit;
+    margin-top: 15px;
+}
+.formregister{
+
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #23233B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

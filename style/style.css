@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+
+    background-image: url(/imgs/bglogin.png);
+}
+
+.container{
+max-width: 90%;
+height:1000px ;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* display: flex; */
+}
+.nav{
+
+    width: 85%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin: 10px auto;
+    
+}
+.logo{
+    background-image: url(/imgs/logo.png);
+    background-size:85px;
+    width: 100px;
+    height: 85px;
+    background-repeat: no-repeat;
+}
+.joinus{
+    width: 170px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 35px;
+    font-size: 20px;
+    color: white;
+}
+.astronnaut{
+    width: 80%;
+    height: 700px;
+    /* background-color: tomato; */
+    font-size: 160px ;
+    color: #E7EBF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#imageastronnaut{
+    background-image: url(/imgs/astronaut.png);
+    width: 650px;
+    height: 650px;
+    background-size: 650px;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    position: absolute;
+left: 600px ;
+
+}
+
+
+
