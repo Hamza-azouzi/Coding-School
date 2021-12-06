@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  body {
+    background-image: url(/imgs/bglogin.png);
+    background-repeat: no-repeat;
+  }
+ 
+  .container{
+      display: flex;
+      justify-content: center;
+  }
+
+
+  .logo {
+    background-image: url(/imgs/logo-black.png);
+    background-size: 85px;
+    width: 100px;
+    height: 85px;
+    background-repeat: no-repeat;
+    
+  }
+#quiz{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 140px 0;
+
+    width: 70%;
+    height: 600px;
+    background-color:#e7ebf7 ;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+
+body h1 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+body h1 span, body h1 i {
+  color: #ffa502;
+}
+body h3 {
+  color: #ffa502;
+  font-size: 1.5rem;
+}
+body .container .choices {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem auto 3rem;
+  width: 500px;
+}
+body .container .choices button {
+  flex: 1 0 45%;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.4rem;
+  outline: none;
+  background: #dfe4ea;
+  user-select: none;
+  font-weight: 600;
+}
+body .container .choices button:hover {
+  background: #ffa502;
+  transition: 0.5s;
+}
+body .container .choices button:active {
+  transform: scale(0.9);
+  transition: transform 0.1s;
+}
+body .container .choices button p {
+  font-size: 1.3rem;
+}
+body #progress {
+  font-size: 1.3rem;
+  color: #ffa502;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+

@@ -9,66 +9,98 @@
 }
 
 body {
-
-    background-image: url(/imgs/bglogin.png);
+  background-image: url(/imgs/bglogin.png);
+  background-repeat: no-repeat;
 }
 
-.container{
-max-width: 90%;
-height:1000px ;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-/* display: flex; */
+.container {
+  max-width: 90%;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* display: flex; */
 }
-.nav{
-
-    width: 85%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    margin: 10px auto;
-    
+.nav {
+  width: 85%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
 }
-.logo{
-    background-image: url(/imgs/logo.png);
-    background-size:85px;
-    width: 100px;
-    height: 85px;
-    background-repeat: no-repeat;
+.logo {
+  background-image: url(/imgs/logo-white.png);
+  background-size: 85px;
+  width: 100px;
+  height: 85px;
+  background-repeat: no-repeat;
 }
-.joinus{
-    width: 170px;
-    height: 60px;
-    border-radius: 30px;
-    border-style: solid;
-    padding: 10px 35px;
-    font-size: 20px;
-    color: white;
+.joinus {
+  width: 170px;
+  height: 60px;
+  border-radius: 30px;
+  border-style: solid;
+  padding: 10px 35px;
+  font-size: 20px;
+  color: white;
 }
-.astronnaut{
-    width: 80%;
-    height: 700px;
-    /* background-color: tomato; */
-    font-size: 160px ;
-    color: #E7EBF7;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.astronnaut {
+  width: 80%;
+  height: 700px;
+  /* background-color: tomato; */
+  font-size: 160px;
+  color: #e7ebf7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-#imageastronnaut{
-    background-image: url(/imgs/astronaut.png);
-    width: 650px;
-    height: 650px;
-    background-size: 650px;
-    background-repeat: no-repeat;
-    /* background-color: red; */
-    position: absolute;
-left: 600px ;
-
+#imageastronnaut {
+  background-image: url(/imgs/astronaut.png);
+  width: 650px;
+  height: 650px;
+  background-size: 650px;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+  position: absolute;
+  left: 600px;
 }
 
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.quizcontainer {
+  width: 750px;
+  height: 750px;
+  background-color: #e7ebf7;
+  margin: 120px 0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
 
+}
+.questionquiz {
+  width: 600px;
+  height: 310px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.questions {
+  width: 270px;
+  height: 120px;
+  background-color: royalblue;
+  border-radius: 10px;
+}
