@@ -1,54 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Roboto Mono", monospace;
-  }
-  
-  body {
-    background-image: url(/imgs/bglogin.png);
-    background-repeat: no-repeat;
-  }
- 
-  .container{
-      display: flex;
-      justify-content: center;
-  }
-
-
-  .logo {
-    background-image: url(/imgs/logo-black.png);
-    background-size: 85px;
-    width: 100px;
-    height: 85px;
-    background-repeat: no-repeat;
-    
-  }
-#quiz{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 140px 0;
-
-    width: 70%;
-    height: 600px;
-    background-color:#e7ebf7 ;
-    border-radius: 20px;
-    gap: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 
+body {
+  background-image: url(/imgs/bglogin.png);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  background-image: url(/imgs/logo-black.png);
+  background-size: 85px;
+  width: 100px;
+  height: 85px;
+  background-repeat: no-repeat;
+}
+#quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 140px 0;
+
+  width: 70%;
+  height: 600px;
+  background-color: #e7ebf7;
+  border-radius: 20px;
+  gap: 20px;
+}
 
 body h1 {
   margin-bottom: 3rem;
   text-transform: uppercase;
   font-size: 3rem;
 }
-body h1 span, body h1 i {
+body h1 span,
+body h1 i {
   color: #ffa502;
 }
 body h3 {
@@ -92,4 +89,91 @@ body #progress {
 
 /*# sourceMappingURL=style.css.map */
 
+.container3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.letter {
+  width: 70%;
+  height: 70vh;
+  border-radius: 20px;
+  background-color: #e7ebf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
 
+.iptlettre {
+  width: 80%;
+  height: 60px;
+  background-color: white;
+  border: 0;
+  border-radius: 15px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px;
+  color: black;
+}
+/* //////////////////////////// */ /* //////////////////////////// */
+
+.containergame {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quizx-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
+.Quizx-header {
+  padding: 4rem;
+}
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+ul li label {
+  cursor: pointer;
+}
+button {
+  background-color: #03cae4;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+  width: 30%;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: #04adc4;
+}
+button:focus {
+  outline: none;
+  background-color: #44b927;
+}
